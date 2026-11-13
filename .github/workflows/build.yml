@@ -13,11 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      
       - name: Extract project
         run: |
           unzip -q hamrah_yar_android_build_ready.zip -d app
           cd app
-          flutter --version || true
+          sed -i '285s/]))));/])))));/' lib/main.dart
+
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
