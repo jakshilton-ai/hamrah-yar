@@ -1,5 +1,6 @@
 package ir.hamrahyar.app;
 import android.app.*;import android.os.*;import android.content.*;import android.content.pm.PackageManager;import android.graphics.*;import android.graphics.drawable.*;import android.view.*;import android.widget.*;import java.util.*;import java.text.*;import java.net.*;import java.io.*;import org.json.*;
+// Remote translations and announcements are loaded from remote-config.json.
 public class MainActivity extends Activity {
  private static final String[] LANG={"fa","en","ar","de"};
  private static final String[] KEY={"brand","tagline","home","calendar","health","reminders","finance","education","maps","places","today","gregorian","calendarDesc","healthDesc","reminderDesc","financeDesc","educationDesc","mapsDesc","placesDesc","back","convert","year","month","day","convertResult","invalidDate","calendarNext","healthTitle","bmiNote","height","weight","calcBmi","bmiResult","healthPrivacy","reminderTitle","reminderSub","addReminder","reminderHint","cancel","save","reminderLimit","comingTitle","comingDesc","language","languageTitle","languageChanged","bmiUnder","bmiNormal","bmiOver","bmiHigh","dateExample","days","age","profile","travel","documents","homeCar","settings","chooseLang"};
